@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    background: url(images/bg.jpg);    
+    background-size: cover;
+    font-family: 'Rubik', sans-serif;
+
+}
+.loginBox{
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 10%;
+     width: 350px;
+     min-height: 400px;
+     background-color: red;
+     background: rgba(42,112,141,0.6);
+     box-shadow: 0px 1px 1px;
+     border-radius:6px  ;
+     -webkit-border-radius:6px  ;
+     -moz-border-radius:6px  ;
+     -ms-border-radius:6px  ;
+     -o-border-radius:6px  ;
+     position: relative;
+}
+.loginBox img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius:50%;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform:translate(-50%,-50%);
+    position: relative;
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    -o-transform:translate(-50%,-50%);
+    padding: 2px;
+    border:2px dotted gainsboro;
+}
+
+.title{
+    margin-top: -50px;
+    text-align: center;
+ 
+ margin-bottom: 30px;
+
+}
+.title p{
+      color: white;
+      font-size: 22px;
+      
+}
+.title span{
+    color: rgb(221, 216, 216);
+    font-size: 18px;
+    margin-top: -10px;
+    display: block;
+ 
+}
+  
+.loginForm{
+    margin-top: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ padding:5px 20px 30px 20px;   
+ 
+
+}
+.loginForm input[type="text"]{
+    height: 33px;
+    margin-bottom: 6px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-bottom: 1px solid rgba(224, 224, 224, 0.1);
+    line-height: 33px;
+ outline: none;
+ color: white;
+ background: transparent;
+}
+.loginForm input::placeholder{
+color: white;
+font-size: 15px;
+}
+
+
+
+    
+.loginForm a{
+ margin-top: 20px;
+ height: 30px;
+ border-radius: 10px;
+ border:none;
+ background-color: #0d5f85;
+ -webkit-border-radius: 10px;
+ color: white;
+ text-align: center;
+ margin-top: 15px;
+ padding-top: 10px;
+ font-size: 16px;
+ -moz-border-radius: 10px;
+ -ms-border-radius: 10px;
+ -o-border-radius: 10px;
+ text-decoration: none;
+}
+    
+.loginForm a:hover{
+  
+    background-color: #0783bd;
+ 
+   }
